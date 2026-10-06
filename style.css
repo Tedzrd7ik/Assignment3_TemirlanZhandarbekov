@@ -1,0 +1,69 @@
+.custom-services-section {
+  padding: 2.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #212529;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.custom-card h3 {
+  font-size: 1.2rem;
+  color: #0d6efd;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .custom-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .custom-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .custom-card {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-services-section {
+    padding: 4rem 2rem;
+  }
+
+  .custom-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .custom-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
